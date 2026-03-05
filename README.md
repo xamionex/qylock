@@ -12,7 +12,6 @@
 <div align="left">
   <a href="https://github.com/sddm/sddm"><img src="https://img.shields.io/badge/SDDM-000000?style=for-the-badge&logo=linux&logoColor=white" align="left"/></a>
   <a href="https://www.qt.io"><img src="https://img.shields.io/badge/QT_QML-000000?style=for-the-badge&logo=qt&logoColor=white" align="left"/></a>
-  <a href="https://github.com/Darkkal44/sddm-themes/stargazers"><img src="https://img.shields.io/github/stars/Darkkal44/sddm-themes?style=for-the-badge&color=000000" align="left"/></a>
   
   <div align="right">
     <details>
