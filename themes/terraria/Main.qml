@@ -404,7 +404,12 @@ Rectangle {
         anchors.fill: parent
         opacity: root.uiOpacity
 
-        Component.onCompleted: SequentialAnimation {
+        Component.onCompleted: {
+            startupAnim.start()
+        }
+
+        SequentialAnimation {
+            id: startupAnim
             PauseAnimation { duration: 300 }
             ParallelAnimation {
                 NumberAnimation { target: root; property: "uiOpacity"; from: 0; to: 1; duration: 800; easing.type: Easing.OutQuad }
@@ -417,34 +422,23 @@ Rectangle {
             anchors.centerIn: parent
             anchors.verticalCenterOffset: 10 * s
             spacing: 20 * s
+            z: 100
 
             // LOGO
             Item {
                 width: 700 * s; height: 160 * s
+                z: 110
                 Image {
+                    id: logoImage
                     source: "terraria_logo.png"
                     width: 440 * s; fillMode: Image.PreserveAspectFit
                     anchors.horizontalCenter: parent.horizontalCenter
-                    y: 10 * s
-
+                    anchors.verticalCenter: parent.verticalCenter
+                    
                     transformOrigin: Item.Center
-                    SequentialAnimation on scale {
-                        loops: Animation.Infinite
-                        NumberAnimation { from: 1.0; to: 1.06; duration: 2500; easing.type: Easing.InOutQuad }
-                        NumberAnimation { from: 1.06; to: 1.0; duration: 2500; easing.type: Easing.InOutQuad }
-                    }
-                    SequentialAnimation on rotation {
-                        loops: Animation.Infinite
-                        NumberAnimation { from: -3; to: 3; duration: 3000; easing.type: Easing.InOutSine }
-                        NumberAnimation { from: 3; to: -3; duration: 3000; easing.type: Easing.InOutSine }
-                    }
 
-                    layer.enabled: true
-                    layer.effect: DropShadow {
-                        transparentBorder: true
-                        horizontalOffset: 3; verticalOffset: 3
-                        radius: 8 * s; samples: 16; color: "#000000"
-                    }
+                    // Simple shadow without layer mapping for better compatibility
+                    visible: true
                 }
             }
 
