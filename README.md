@@ -12,28 +12,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sddm/sddm">
-    <img src="https://img.shields.io/badge/SDDM-black?style=flat-square&logo=linux&logoColor=white" alt="SDDM"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/outfoxxed/quickshell">
-    <img src="https://img.shields.io/badge/Quickshell-black?style=flat-square&logo=qtile&logoColor=white" alt="Quickshell"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/Darkkal44/qylock/stargazers">
-    <img src="https://img.shields.io/github/stars/Darkkal44/qylock?style=flat-square&color=black&labelColor=black&logo=star&logoColor=white" alt="Stars"/>
-  </a>
-  &nbsp;
-  <a href="https://ko-fi.com/darkkal">
-    <img src="https://img.shields.io/badge/Ko--fi-black?style=flat-square&logo=ko-fi&logoColor=white" alt="Ko-fi"/>
-  </a>
+  <a href="https://github.com/sddm/sddm"><img src="https://img.shields.io/badge/SDDM-black?style=flat-square&logo=linux&logoColor=white" alt="SDDM"/></a> <a href="https://github.com/outfoxxed/quickshell"><img src="https://img.shields.io/badge/Quickshell-black?style=flat-square&logo=qtile&logoColor=white" alt="Quickshell"/></a> <a href="https://github.com/Darkkal44/qylock/stargazers"><img src="https://img.shields.io/github/stars/Darkkal44/qylock?style=flat-square&color=black&labelColor=black&logo=star&logoColor=white" alt="Stars"/></a> <a href="https://ko-fi.com/darkkal"><img src="https://img.shields.io/badge/Ko--fi-black?style=flat-square&logo=ko-fi&logoColor=white" alt="Ko-fi"/></a>
 </p>
 
 <br>
 
 <p align="center">
-  A curated collection of pixel-perfect lockscreen themes for SDDM and Quickshell.<br>
-  Switch themes instantly with an interactive script — no manual file moving required.
+  A curated collection of cozy lockscreen themes for SDDM and Quickshell.<br>
+  Switch themes instantly with the script!!
 </p>
 
 <br>
@@ -66,7 +52,7 @@ chmod +x sddm.sh && ./sddm.sh
 
 ### Font Requirements
 
-Some themes rely on fonts that cannot be bundled here. Download the font and drop it into `themes/<theme_name>/font/` — it loads automatically.
+Some themes rely on fonts that cannot be bundled here (copyright issues). Download the font and drop it into `themes/<theme_name>/font/` — it loads automatically.
 
 | Theme | Font | Filename |
 |:--|:--|:--|
